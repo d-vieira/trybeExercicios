@@ -1,0 +1,8 @@
+internet
+unix
+bash
+js
+python
+css
+communication
+empathy
