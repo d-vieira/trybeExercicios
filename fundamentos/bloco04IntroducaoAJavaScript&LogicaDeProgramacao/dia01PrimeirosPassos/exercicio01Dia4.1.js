@@ -51,11 +51,39 @@
     //   console.log(msgExTres);
     // }
 
-let pawn = "Pawns move vertically forward one square, with the option to move two squares if they have not yet moved. Pawns are the only piece to capture different to how they move. The pawns capture one square diagonally in a forward direction. Pawns are unable to move backward on captures or moves. Upon reaching the other side of the board a pawn promotes into any other piece, except for a king. Additionally, pawns can make a special move named En Passant.";
-let rook = "Rooks move horizontally or vertically any number of squares. They are unable to jump over pieces. Rooks move when the king castles.";
-let knight = "Knights move in an ‘L’ shape’: two squares in a horizontal or vertical direction, then move one square horizontally or vertically. They are the only piece able to jump over other pieces.";
-let bishop = "Bishops move diagonally any number of squares. They are unable to jump over pieces.";
-let queen = "Queens move diagonally, horizontally, or vertically any number of squares. They are unable to jump over pieces.";
-let king = "Kings move one square in any direction, so long as that square is not attacked by an enemy piece. Additionally, kings are able to make a special move, known as castling.";
+// let pawn = "Pawns move vertically forward one square, with the option to move two squares if they have not yet moved. Pawns are the only piece to capture different to how they move. The pawns capture one square diagonally in a forward direction. Pawns are unable to move backward on captures or moves. Upon reaching the other side of the board a pawn promotes into any other piece, except for a king. Additionally, pawns can make a special move named En Passant.";
+// let rook = "Rooks move horizontally or vertically any number of squares. They are unable to jump over pieces. Rooks move when the king castles.";
+// let knight = "Knights move in an ‘L’ shape’: two squares in a horizontal or vertical direction, then move one square horizontally or vertically. They are the only piece able to jump over other pieces.";
+// let bishop = "Bishops move diagonally any number of squares. They are unable to jump over pieces.";
+// let queen = "Queens move diagonally, horizontally, or vertically any number of squares. They are unable to jump over pieces.";
+// let king = "Kings move one square in any direction, so long as that square is not attacked by an enemy piece. Additionally, kings are able to make a special move, known as castling.";
 
-  console.log(pawn);
+//   console.log(pawn);
+
+
+
+////
+  let notaEmPorCento = Math.floor(Math.random() * 101);
+  let notaFinal;
+    console.log(notaEmPorCento);
+  
+    if (notaEmPorCento >= 90) {
+      notaFinal = "A";
+    }
+    else if (notaEmPorCento >= 80) {
+      notaFinal = "B";
+    }
+    else if (notaEmPorCento >= 70) {
+      notaFinal = "C";
+    }
+
+    else if (notaEmPorCento >= 60) {
+      notaFinal = "D";
+    }
+    else if (notaEmPorCento >= 50) {
+      notaFinal = "E";
+    }
+    else {
+      notaFinal = "F";
+    }
+    console.log(notaFinal);
