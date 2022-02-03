@@ -4,6 +4,7 @@ let msgExUm = "Ambos os números são iguais! =]"
 const c = 11;
 let msgExDois = "Todos os números são iguais! =]"
 let msgExTres = null;
+const tri = a + b + c;
 
   // console.log(a + b);
   // console.log(a - b);
@@ -24,15 +25,28 @@ let msgExTres = null;
   //   console.log(msgExDois);
   // }
 
-  if (b > 0) {
-    msgExTres = "Positive";
-    console.log(msgExTres);
-  }
-  else if (b < 0) {
-    msgExTres = "Negative";
-    console.log(msgExTres);
-  }
-  else {
-    msgExTres = "Zero";
-    console.log(msgExTres);
-  }
+  // if (b > 0) {
+  //   msgExTres = "Positive";
+  //   console.log(msgExTres);
+  // }
+  // else if (b < 0) {
+  //   msgExTres = "Negative";
+  //   console.log(msgExTres);
+  // }
+  // else {
+  //   msgExTres = "Zero";
+  //   console.log(msgExTres);
+  // }
+
+    if (tri == 180) {
+      msgExTres = true;
+      console.log(msgExTres);
+    }
+    else if (tri > 180 || tri < 180) {      
+      msgExTres = false;
+      console.log(msgExTres);
+    }
+    else {
+      msgExTres = "Error!";
+      console.log(msgExTres);
+    }
