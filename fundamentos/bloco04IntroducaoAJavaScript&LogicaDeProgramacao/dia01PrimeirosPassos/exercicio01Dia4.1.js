@@ -63,27 +63,38 @@
 
 
 ////
-  let notaEmPorCento = Math.floor(Math.random() * 101);
-  let notaFinal;
-    console.log(notaEmPorCento);
+  // let notaEmPorCento = Math.floor(Math.random() * 101);
+  // let notaFinal;
+  //   console.log(notaEmPorCento);
   
-    if (notaEmPorCento >= 90) {
-      notaFinal = "A";
-    }
-    else if (notaEmPorCento >= 80) {
-      notaFinal = "B";
-    }
-    else if (notaEmPorCento >= 70) {
-      notaFinal = "C";
-    }
+  //   if (notaEmPorCento >= 90) {
+  //     notaFinal = "A";
+  //   }
+  //   else if (notaEmPorCento >= 80) {
+  //     notaFinal = "B";
+  //   }
+  //   else if (notaEmPorCento >= 70) {
+  //     notaFinal = "C";
+  //   }
 
-    else if (notaEmPorCento >= 60) {
-      notaFinal = "D";
-    }
-    else if (notaEmPorCento >= 50) {
-      notaFinal = "E";
-    }
-    else {
-      notaFinal = "F";
-    }
-    console.log(notaFinal);
+  //   else if (notaEmPorCento >= 60) {
+  //     notaFinal = "D";
+  //   }
+  //   else if (notaEmPorCento >= 50) {
+  //     notaFinal = "E";
+  //   }
+  //   else {
+  //     notaFinal = "F";
+  //   }
+  //   console.log(notaFinal);
+
+const numeroUm = 648;
+const numeroDois = 4;
+const numeroTres = 65;
+
+if (numeroUm || numeroDois || numeroTres % 2 == 0) {
+  console.log(true);
+}
+else {
+  console.log(false);
+}
