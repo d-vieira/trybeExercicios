@@ -92,7 +92,7 @@ const numeroUm = 648;
 const numeroDois = 4;
 const numeroTres = 65;
 
-if (numeroUm || numeroDois || numeroTres % 2 == 0) {
+if (numeroUm || numeroDois || numeroTres % 2 != 0) {
   console.log(true);
 }
 else {
