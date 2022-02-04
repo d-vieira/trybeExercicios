@@ -88,13 +88,27 @@
   //   }
   //   console.log(notaFinal);
 
-const numeroUm = 648;
-const numeroDois = 4;
-const numeroTres = 65;
+// const numeroUm = 648;
+// const numeroDois = 4;
+// const numeroTres = 65;
 
-if (numeroUm || numeroDois || numeroTres % 2 != 0) {
-  console.log(true);
-}
-else {
-  console.log(false);
-}
+// if (numeroUm || numeroDois || numeroTres % 2 != 0) {
+//   console.log(true);
+// }
+// else {
+//   console.log(false);
+// }
+
+
+const custo = 268;
+const preco = 320;
+let imposto = custo * 0.20;
+let custoFinal = custo + imposto;
+  if (custo || preco || imposto || custoFinal < 0) {
+    console.log(ErrorMessage);
+  }
+  else {
+    console.log((preco - custoFinal) * 1000);
+  }
+
+
