@@ -75,3 +75,12 @@ for (let index = 1; index <= 25; index += 1) {
   result.push(index);
 }
 console.log(result);
+
+
+newResult = [];
+for (let novoIndex = 0; novoIndex < result.lenght; novoIndex += 1) {
+  console.log(result[novoIndex] / 2);
+}
+// newResult.push(result[novoIndex] / 2);
+// console.log(newResult);
+
