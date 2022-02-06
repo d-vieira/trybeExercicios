@@ -21,12 +21,23 @@
 // EXERCICIO 3
 // Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
 
+// let array = ["java", "javascript", "python", "html", "css",];
+
+// let resultOne = array[0];
+
+// for (let index1 = 0; index1 < array.length; index1 += 1) {
+//   if (array[index1].length > resultOne.length) {
+//     resultOne = array[index1];
+//   } 
+// }
+// console.log(resultOne);
+
 let array = ["java", "javascript", "python", "html", "css",];
 
 let resultOne = array[0];
 
 for (let index1 = 0; index1 < array.length; index1 += 1) {
-  if (array[index1].length > resultOne.length) {
+  if (array[index1].length < resultOne.length) {
     resultOne = array[index1];
   } 
 }
