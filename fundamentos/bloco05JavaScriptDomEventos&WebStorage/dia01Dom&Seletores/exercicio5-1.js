@@ -13,3 +13,9 @@ changeCenterColor[0].style.backgroundColor = 'rgb(255,255,255)';
 //4
 let changeTitle = document.getElementsByTagName('h1');
 changeTitle[0].innerText = 'Exercício 5.1 - JavaScript '
+
+//5
+let changeToUpperCase = document.getElementsByTagName('p');
+for (let key in changeToUpperCase) {
+  changeToUpperCase[key].style.textTransform = 'uppercase';
+}
