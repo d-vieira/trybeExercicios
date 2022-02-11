@@ -52,25 +52,29 @@
 }
 
 .colorSmoothPink {
-  color: #CF8E80;
+ background-color: #CF8E80;
 }
 
 .colorBrightPink {
-  color: #ED31B1;
+  background-color: #ED31B1;
 }
 
 .colorBlack {
-  color: #13020D;
+  background-color: #13020D;
 }
 
 .colorWhite {
-  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .colorDarkGreen {
-  color: #1B4332;
+  background-color: #1B4332;
 }
 
 .colorSmoothGreen {
-  color: #52B788;
+  background-color: #52B788;
+}
+
+.colorSmoothYellow {
+  background-color: #f9c74f;
 }
