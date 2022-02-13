@@ -138,7 +138,8 @@
       let listItem10 = document.createElement('li');
       listItem10.innerText = "Dez";
       document.querySelector('.unorded-list').appendChild(listItem10);
-
+      
+      // 09-
       let h3OnMain1 = document.createElement('h3');
       h3OnMain1.innerText = "Subtitulo h3 - 1";
       document.querySelector('.main-content').appendChild(h3OnMain1);
@@ -150,6 +151,29 @@
       let h3OnMain3 = document.createElement('h3');
       h3OnMain3.innerText = "Subtitulo h3 - 3";
       document.querySelector('.main-content').appendChild(h3OnMain3);
+
+      // 1 -pt2
+      document.querySelector('h1').className = 'title';
+
+      // 2 -pt2
+      let mainContentH3 = document.querySelectorAll('main h3');
+      for (let index = 0; index <= mainContentH3.length; index += 1) {
+        mainContentH3[index].className = 'description';
+      }
+
+      // 3 -pt2 // Não consegui ~Não entendi o resultados errados
+      newMain.removeChild(left-content);
+
+      // 4 -pt2
+      thirdSection.style.marginRight = "auto";
+
+      // 5 -pt2 // Código funciona através do console do browser, mas nao está funcionando pelo vsCode
+      newMain.style.backgroundColor = "pink";
+      
+      // 6 -pt2 // Código funciona através do console do browser, mas nao está funcionando pelo vsCode
+      unorderdListForRightContent.removeChild(listItem10);
+      unorderdListForRightContent.removeChild(listItem9);
+
     </script>
   </body>
 </html>
