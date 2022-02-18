@@ -1,0 +1,58 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário TrybeTrip</title>
+</head>
+<body>
+  <header>
+    <h1>
+      TrybeTrip
+    </h1>
+    <p>Preencha o formulário e concorra!</p>
+  </header>
+  <main>
+    <form action="" method="get">
+      <label for="full-name">Nome Completo:</label>
+      <input type="text" name="full-name" id="full-name" required placeholder="Digite seu Nome e Sobrenome aqui." size="50" minlength="10" maxlength="40">
+      <br>
+      <br>
+      <label for="e-mail">E-mail:</label>
+      <input type="email" name="e-mail-address" id="e-mail" required placeholder="Digite seu endereço de e-mail aqui." size="50" minlength="10" maxlength="50">
+      <br>
+      <br>
+      <label for="destiny-type">Escolha seu destino favorito!</label>
+      <br>
+      <input type="radio" name="destiny-type" id="destiny-type-urban" value="urb"> Cidade
+      <input type="radio" name="destiny-type" id="destiny-type-field" value="fld"> Campo
+      <input type="radio" name="destiny-type" id="destiny-type-beach" value="bch"> Praia
+      <input type="radio" name="destiny-type" id="destiny-type-mountain" value="mtn"> Montanhas
+      <br>
+      <br>
+      <label for="why-text">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+      <br>
+      <textarea name="why" id="why-text" cols="65" rows="8" maxlength="500" required></textarea>
+      <br>
+      <br>
+      <label for="travel-date">Escolha a melhor data para a sua viagem!</label>
+      <br>
+      <input type="date" name="travel-date" id="travel-date" required>
+      <br>
+      <br>
+      <label for="news-letter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?<input type="checkbox" name="news-letter" id="news-letter"></label>
+      <br>
+      <label for="use-terms">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.<input type="checkbox" name="use-terms" id="use-terms"></label>
+      <br>
+      <br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Apagar</button>
+
+    </form>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
