@@ -50,3 +50,31 @@
   padding: 15px;
   text-align: center;
 }
+
+.colorSmoothPink {
+ background-color: #CF8E80;
+}
+
+.colorBrightPink {
+  background-color: #ED31B1;
+}
+
+.colorBlack {
+  background-color: #13020D;
+}
+
+.colorWhite {
+  background-color: #FFFFFF;
+}
+
+.colorDarkGreen {
+  background-color: #1B4332;
+}
+
+.colorSmoothGreen {
+  background-color: #52B788;
+}
+
+.colorSmoothYellow {
+  background-color: #f9c74f;
+}

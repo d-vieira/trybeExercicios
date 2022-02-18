@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 01-
+      let newh1 = document.createElement('h1');
+      newh1.innerText = "Exercício 5.2 - JavaScript DOM";
+      document.body.appendChild(newh1);
+
+      // 02-
+      let newMain = document.createElement('main');
+      newMain.className = 'main-content';
+      document.body.appendChild(newMain);
+
+      // 03-
+      let newSection = document.createElement('section');
+      newSection.className = 'center-content';
+      document.querySelector('.main-content').appendChild(newSection);
+      
+      // 04-
+      let newP = document.createElement('p');
+      newP.innerText = "Hi there !";
+      document.querySelector('.center-content').appendChild(newP);
+
+      // 05-
+      let secondSection = document.createElement('section');
+      secondSection.className = 'left-content';
+      document.querySelector('.main-content').appendChild(secondSection);
+
+      // 06-
+      let thirdSection = document.createElement('section');
+      thirdSection.className = 'right-content';
+      document.querySelector('.main-content').appendChild(thirdSection);
+
+      // 07-
+      let imgForLeftContent = document.createElement('img');
+      imgForLeftContent.className = 'small-image';
+      imgForLeftContent.src = 'https://picsum.photos/200';
+      imgForLeftContent.alt = "Imagem gerada aleatóriamente";
+      document.querySelector('.left-content').appendChild(imgForLeftContent);
+
+      // 08- REALMENTE PEDE UM REFATORAMENTO;
+      let unorderdListForRightContent = document.createElement('ul');
+      unorderdListForRightContent.className = 'unorded-list';
+      document.querySelector('.right-content').appendChild(unorderdListForRightContent);
+
+      let listItem1 = document.createElement('li');
+      listItem1.innerText = "Um";
+      document.querySelector('.unorded-list').appendChild(listItem1);
+      
+      let listItem2 = document.createElement('li');
+      listItem2.innerText = "Dois";
+      document.querySelector('.unorded-list').appendChild(listItem2);
+
+      let listItem3 = document.createElement('li');
+      listItem3.innerText = "Três";
+      document.querySelector('.unorded-list').appendChild(listItem3);
+
+      let listItem4 = document.createElement('li');
+      listItem4.innerText = "Quatro";
+      document.querySelector('.unorded-list').appendChild(listItem4);
+
+      let listItem5 = document.createElement('li');
+      listItem5.innerText = "Cinco";
+      document.querySelector('.unorded-list').appendChild(listItem5);
+
+      let listItem6 = document.createElement('li');
+      listItem6.innerText = "Seis";
+      document.querySelector('.unorded-list').appendChild(listItem6);
+
+      let listItem7 = document.createElement('li');
+      listItem7.innerText = "Sete";
+      document.querySelector('.unorded-list').appendChild(listItem7);
+
+      let listItem8 = document.createElement('li');
+      listItem8.innerText = "Oito";
+      document.querySelector('.unorded-list').appendChild(listItem8);
+
+      let listItem9 = document.createElement('li');
+      listItem9.innerText = "Nove";
+      document.querySelector('.unorded-list').appendChild(listItem9);
+      
+      let listItem10 = document.createElement('li');
+      listItem10.innerText = "Dez";
+      document.querySelector('.unorded-list').appendChild(listItem10);
+      
+      // 09-
+      let h3OnMain1 = document.createElement('h3');
+      h3OnMain1.innerText = "Subtitulo h3 - 1";
+      document.querySelector('.main-content').appendChild(h3OnMain1);
+
+      let h3OnMain2 = document.createElement('h3');
+      h3OnMain2.innerText = "Subtitulo h3 - 2";
+      document.querySelector('.main-content').appendChild(h3OnMain2);
+
+      let h3OnMain3 = document.createElement('h3');
+      h3OnMain3.innerText = "Subtitulo h3 - 3";
+      document.querySelector('.main-content').appendChild(h3OnMain3);
+
+      // 1 -pt2
+      document.querySelector('h1').className = 'title';
+
+      // 2 -pt2
+      let mainContentH3 = document.querySelectorAll('main h3');
+      for (let index = 0; index <= mainContentH3.length; index += 1) {
+        mainContentH3[index].className = 'description';
+      }
+
+      // 3 -pt2 // Não consegui ~Não entendi o resultados errados
+      newMain.removeChild(left-content);
+
+      // 4 -pt2
+      thirdSection.style.marginRight = "auto";
+
+      // 5 -pt2 // Código funciona através do console do browser, mas nao está funcionando pelo vsCode
+      newMain.style.backgroundColor = "pink";
+      
+      // 6 -pt2 // Código funciona através do console do browser, mas nao está funcionando pelo vsCode
+      unorderdListForRightContent.removeChild(listItem10);
+      unorderdListForRightContent.removeChild(listItem9);
+
+    </script>
+  </body>
+</html>
