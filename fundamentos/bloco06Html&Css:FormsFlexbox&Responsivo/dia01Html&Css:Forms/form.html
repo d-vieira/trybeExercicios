@@ -13,7 +13,7 @@
     <p>Preencha o formulário e concorra!</p>
   </header>
   <main>
-    <form action="" method="get">
+    <form name="trybe-trip" action="" method="get">
       <label for="full-name">Nome Completo:</label>
       <input type="text" name="full-name" id="full-name" required placeholder="Digite seu Nome e Sobrenome aqui." size="50" minlength="10" maxlength="40">
       <br>
@@ -22,12 +22,16 @@
       <input type="email" name="e-mail-address" id="e-mail" required placeholder="Digite seu endereço de e-mail aqui." size="50" minlength="10" maxlength="50">
       <br>
       <br>
-      <label for="destiny-type">Escolha seu destino favorito!</label>
-      <br>
-      <input type="radio" name="destiny-type" id="destiny-type-urban" value="urb"> Cidade
-      <input type="radio" name="destiny-type" id="destiny-type-field" value="fld"> Campo
-      <input type="radio" name="destiny-type" id="destiny-type-beach" value="bch"> Praia
-      <input type="radio" name="destiny-type" id="destiny-type-mountain" value="mtn"> Montanhas
+      <label for="destiny-type">Escolha seu destino favorito!
+        <input type="radio" name="destiny-type" id="destiny-type-urban" value="urb">
+        <label for="destiny-type-urban">Cidade</label> 
+        <input type="radio" name="destiny-type" id="destiny-type-field" value="fld">
+        <label for="destiny-type-field">Campo</label>
+        <input type="radio" name="destiny-type" id="destiny-type-beach" value="bch">
+        <label for="destiny-type-beach">Praia</label>
+        <input type="radio" name="destiny-type" id="destiny-type-mountain" value="mtn">
+        <label for="destiny-type-mountain">Montanhas</label> 
+      </label>
       <br>
       <br>
       <label for="why-text">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
