@@ -17,7 +17,8 @@
 // }
 
 let myForm = document.forms['trybe-trip'];
-validation.init('#trybe-trip');
-validation.init("#myForm", {
-  events: ["change", "paste", "keyup"]
-});
+let myEmailTest = document.forms['trybe-trip']['email'];
+let myCheckboxTest = document.forms['trybe-trip']['news-letter']
+validation.init(myForm);
+validation.validate(myEmailTest);
+validation.validate(myCheckboxTest);

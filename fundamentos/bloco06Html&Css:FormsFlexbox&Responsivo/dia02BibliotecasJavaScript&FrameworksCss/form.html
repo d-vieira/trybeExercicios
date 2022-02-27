@@ -47,7 +47,7 @@
       <input type="text" id="datepicker" required>
       <br>
       <br>
-      <label for="news-letter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?<input type="checkbox" name="news-letter" id="news-letter"></label>
+      <label for="news-letter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?<input type="checkbox" name="news-letter" id="news-letter" data-validate="required,checkbox" class="validate"></label>
       <br>
       <label for="use-terms">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.<input type="checkbox" name="use-terms" id="use-terms" required></label>
       <br>
@@ -55,10 +55,11 @@
       <button type="submit" id="submit-button">Enviar</button>
       <button type="reset" id="reset-button">Apagar</button>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" class="validate" 
-      data-validate="required,email" />
-
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="validate" 
+               data-validate="required,email" />
+      </div> 
     </form>
   </main>
   <footer>
@@ -72,6 +73,9 @@
     </script>
   
   <script src="validation.min.js"></script>
+  <!-- <script>
+    validation.init();
+  </script> -->
   
   <script src="script.js"></script>
 </body>
