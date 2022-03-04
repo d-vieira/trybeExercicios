@@ -12,7 +12,7 @@
 // testingScope(false);
 
 // Exercício 2:
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-oddsAndEvens.sort(function(a, b){return a-b}) // funcao declarada como anonima baseada em documentação: https://www.w3schools.com/jsref/jsref_sort.asp
-oddsAndEvens.sort((a, b) => a-b); // funcao declarada como 'arrow' baseada em documentação: https://www.w3schools.com/jsref/jsref_sort.asp
-console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente!`);
+// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+// oddsAndEvens.sort(function(a, b){return a-b}) // funcao declarada como anonima baseada em documentação: https://www.w3schools.com/jsref/jsref_sort.asp
+// oddsAndEvens.sort((a, b) => a-b); // funcao declarada como 'arrow' baseada em documentação: https://www.w3schools.com/jsref/jsref_sort.asp
+// console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente!`);
