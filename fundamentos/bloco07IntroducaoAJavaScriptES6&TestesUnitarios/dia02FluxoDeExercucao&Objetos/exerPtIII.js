@@ -66,7 +66,7 @@ const lesson3 = {
 // console.log(listOfValues(lesson1));
 
 // // - Requisito 05
-// const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
+const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
 // console.table(allLessons);
 
 // // - Requisito 06 - Aprendi a desenvolver essa função através do gabarito dos exercícios
@@ -103,3 +103,46 @@ const lesson3 = {
 //   }
 // }
 // console.log(verifyPair(lesson2,'materia','História'));
+
+// // - Requisito Bonus 01
+// function getAmountOfStudentsPerSubject (object, valueParam) {
+//   const valuesArray = Object.values(object);
+//   const keysArray = Object.keys(object);
+//   const entriesArray = Object.entries(object);
+//   let result = 0;
+//   for (let index in entriesArray) {
+//     for (let index2 in valuesArray) {
+
+//       if (valuesArray[index2] === valueParam) {
+//         result += object[entriesArray[index]].numeroEstudantes;
+//       }
+//     }
+//   }  
+//   // for (let i = 0; i < keysArray.length; i += 1) {
+    
+//   // }
+//   // for (let i2 = 0; i2 < valuesArray.length; i2 += 1) {
+//   //   if (valuesArray[i2] === valueParam) {
+//   //     result += object[keysArray[i]].numeroEstudantes;
+//   //   }
+//   // }
+  
+
+//     // if (array[key] === valueParam) {
+//     // result += object[array[key]].numeroEstudantes;
+//     // }
+//   return result;
+// }
+// console.log(getAmountOfStudentsPerSubject(allLessons, 'Matemática'));
+
+function countStudent (obj, value){
+  const array = Object.keys(obj);
+  let sumStudent = 0;
+    for (let key in array){
+      if(array[key].materia === value){
+        sumStudent += obj[array[key]].numeroEstudante;
+      }
+   }
+  return sumStudent;   
+}
+console.log(countStudent(allLessons, 'História'));
