@@ -43,3 +43,28 @@ const lesson3 = {
 // console.log(calcObjectLength(lesson1));
 // const lenghtObject = (object) => Object.keys(object).length;
 // console.log(lenghtObject(lesson1));
+
+// REQUISITO 4 = 2
+
+// const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
+// console.table(allLessons);
+
+// function getValueOfKey (object, key) {  // desenvolvido pelo Osmar
+//   const array = Object.values(object)
+//   return array[key];
+// }
+// console.log(getValueOfKey(lesson1, 1));
+// const getValueByNumber = (obj, index) => Object.values(obj)[index]; // desenvolvido pelo Breno e Osmar
+// console.log(getValueByNumber(lesson1, 0));
+
+function verifyPair(obj, key, value){ // desenvolvido pelo Breno
+  const array = Object.entries(obj);
+  for(let index in array){
+    if(array[index][0] == key && array[index][1] == value) {
+      return true ;
+    } else {
+      return false;
+    }
+  }
+}
+console.log(verifyPair(lesson2,'materia','História'));
