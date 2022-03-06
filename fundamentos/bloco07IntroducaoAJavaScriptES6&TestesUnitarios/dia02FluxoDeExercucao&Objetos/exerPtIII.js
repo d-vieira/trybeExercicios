@@ -66,7 +66,7 @@ const lesson3 = {
 // console.log(listOfValues(lesson1));
 
 // // - Requisito 05
-const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
+// const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
 // console.table(allLessons);
 
 // // - Requisito 06 - Aprendi a desenvolver essa função através do gabarito dos exercícios
@@ -135,14 +135,28 @@ const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
 // }
 // console.log(getAmountOfStudentsPerSubject(allLessons, 'Matemática'));
 
-function countStudent (obj, value){
-  const array = Object.keys(obj);
-  let sumStudent = 0;
-    for (let key in array){
-      if(array[key].materia === value){
-        sumStudent += obj[array[key]].numeroEstudante;
-      }
-   }
-  return sumStudent;   
-}
-console.log(countStudent(allLessons, 'História'));
+// function countStudent (obj, value){
+//   const array = Object.keys(obj);
+//   let sumStudent = 0;
+//     for (let key in array){
+//       if(array[key].materia === value){
+//         sumStudent += obj[array[key]].numeroEstudante;
+//       }
+//    }
+//   return sumStudent;   
+// }
+// console.log(countStudent(allLessons, 'História'));
+
+// // -  - Requisito Bonus 01 - Desenvolvido pelo Osmar.
+// function countStudents(obj, value){
+//   const array = Object.keys(obj);
+//   let sumStudent =0;
+//   for (let i = 0; i < array.length; i += 1){
+//    if (obj[array[i]].materia === value){
+//     sumStudent += obj[array[i]].numeroEstudantes;
+//    }
+//   }
+//   return sumStudent;
+//  }
+ 
+//  console.log(countStudents(allLessons, 'História'));
