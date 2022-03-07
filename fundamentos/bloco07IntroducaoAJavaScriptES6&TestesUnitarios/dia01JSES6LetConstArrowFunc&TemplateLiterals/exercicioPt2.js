@@ -1,8 +1,8 @@
 // Exercicio 1:
 const calcFactorial = (n) => {
-  let result;
-  for (i = n; i >= 1; i -= 1) {
-    result = n * i;
+  let result = 1;
+  for (i = 2; i <= n; i += 1) {
+    result *= i;
   }
   return result;
 }
