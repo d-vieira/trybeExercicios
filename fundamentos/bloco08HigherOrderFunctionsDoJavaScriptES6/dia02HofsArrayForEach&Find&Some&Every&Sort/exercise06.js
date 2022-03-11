@@ -65,8 +65,10 @@ const books = [
 
 // 6 - Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.
 
-const expectedResult = true;
+// const expectedResult = true;
 
-function someBookWasReleaseOnThe80s() {
-  // escreva seu código aqui
+function someBookWasReleaseOnThe80s(livros) {
+  const checkReleaseDecade = livros.some((livros) => livros.releaseYear > 1979 && livros.releaseYear < 1990 ? true : false);
+  return checkReleaseDecade;
 }
+console.log(someBookWasReleaseOnThe80s(books));

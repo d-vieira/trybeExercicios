@@ -68,7 +68,7 @@ const books = [
 //const expectedResult = false;
 
 function everyoneWasBornOnSecXX(livros) {
-  const checkBirthDate = livros.every((livros) => livros.author.birthYear > 1900 && livros.author.birthYear < 2001 ? true : false)
+  const checkBirthDate = livros.every((livros) => livros.author.birthYear > 1900 && livros.author.birthYear < 2001 ? true : false);
   return checkBirthDate;
 }
 
