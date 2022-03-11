@@ -65,8 +65,11 @@ const books = [
 
 // 5 - Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
 
-const expectedResult = false;
+//const expectedResult = false;
 
-function everyoneWasBornOnSecXX() {
-  // escreva seu código aqui
+function everyoneWasBornOnSecXX(livros) {
+  const checkBirthDate = livros.every((livros) => livros.author.birthYear > 1900 && livros.author.birthYear < 2001 ? true : false)
+  return checkBirthDate;
 }
+
+console.log(everyoneWasBornOnSecXX(books));
