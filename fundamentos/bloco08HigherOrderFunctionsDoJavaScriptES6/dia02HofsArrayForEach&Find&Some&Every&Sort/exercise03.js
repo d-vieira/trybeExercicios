@@ -76,6 +76,8 @@ const expectedResult = {
   releaseYear: 1991,
 };
 
-function getNamedBook() {
-  // escreva seu código aqui
+function getNamedBook(livros) {
+  const findBook = livros.find((livro) => livro.name.length === 26);
+  return findBook;
 }
+console.log(getNamedBook(books))
