@@ -67,6 +67,15 @@ const books = [
 
 const expectedResult = false;
 
-function authorUnique() {
-  // escreva seu código aqui
+// function authorUnique() { // MINHA LINHA DE RACIOCINIO INICIAL
+//   return books.some((book, index) => book.author.name !== book.author.name[index] && book.author.birthYear === book.author.birthYear[index]);
+// }
+// console.log(authorUnique());
+
+function authorUnique() { // Solução aprendida no gabarito
+  return books.every((book) =>
+    !books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));  
 }
+console.log(authorUnique());
