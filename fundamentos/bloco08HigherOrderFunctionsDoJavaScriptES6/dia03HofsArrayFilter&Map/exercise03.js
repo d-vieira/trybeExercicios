@@ -99,5 +99,6 @@ const expectedResult = [
 ];
 
 function fantasyOrScienceFiction() {
-  // escreva seu código aqui
+  return books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
 }
+console.log(fantasyOrScienceFiction());
