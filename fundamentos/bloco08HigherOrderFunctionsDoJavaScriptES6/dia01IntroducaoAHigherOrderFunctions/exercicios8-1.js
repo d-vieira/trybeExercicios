@@ -25,3 +25,15 @@
 
 // console.log(getBetResult(2, betCompare()));
 
+// #Exercicio 03- // Ainda não consegui desenvolver
+
+function getExamResult (rightAnswers, studentAnswers, compareAnswers) {
+  return `A pontuação final foi de: ${}`;
+}
+
+function compareAnswers (rightAnswers, studentAnswers) {
+  result = 0;
+  for (i = 0; i < rightAnswers.length; i += 1) {
+
+  }
+}
