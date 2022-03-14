@@ -73,5 +73,9 @@ const expectedResult = [
 ];
 
 function fantasyOrScienceFictionAuthors() {
-  // escreva seu código aqui
+  let getAuthors;
+  getAuthors = books.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia');
+  getAuthors = getAuthors.map((element)=> element.author.name);
+  return getAuthors.sort();
 }
+console.log(fantasyOrScienceFictionAuthors());
