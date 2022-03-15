@@ -10,3 +10,6 @@ const yearSeasons = {
   autumn: ['September', 'October', 'November'],
   winter: ['December', 'January', 'February'],
 };
+
+const toArray = ({spring, summer, autumn, winter}) => [...spring, ...summer, ...autumn, ...winter];
+console.log(toArray(yearSeasons));

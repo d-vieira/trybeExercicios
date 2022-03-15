@@ -2,6 +2,9 @@
 
 // Dica: use array destructuring .
 
-const myList = [1, 2, 3];
+const myList = [5, 6, 7];
 
 // escreva swap abaixo
+// const swap = ([pos1, pos2, pos3]) => [pos3, pos2, pos1]; // Ideia inicial
+const swap = ([...param]) => param.reverse(); // função refatorada
+console.log(swap(myList));
