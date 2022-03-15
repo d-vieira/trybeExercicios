@@ -70,5 +70,8 @@ const books = [
 const expectedResult = 'O Senhor dos Anéis';
 
 function authorWith3DotsOnName() {
-  // escreva seu código aqui
+  getAuthorName = books.filter((element) => element.author.name[1] === '.' && element.author.name[4] === '.' && element.author.name[7] === '.').map((element)=>element.name);
+  
+  return getAuthorName;
 }
+console.log(authorWith3DotsOnName());
