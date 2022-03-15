@@ -72,5 +72,8 @@ const expectedResult = [
 ];
 
 function oldBooks() {
-  // escreva seu código aqui
+  return books.filter((element)=> 2022 - element.releaseYear > 60).map((element)=> element.name);
+  // getOldBooks = getOldBooks.map((element)=> element.name);
+  // return getOldBooks;
 }
+console.log(oldBooks());
