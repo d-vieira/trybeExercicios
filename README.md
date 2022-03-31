@@ -12,7 +12,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [X] 3: _Fundamentos do Desenvolvimento Web_
 - [X] 3: _Introdução - Unix & Shell_
-- [X] 3: _Unix & Bash- Part 1_
+- [X] 3: _Unix & Bash- Part 1_mainmain
 - [X] 4: _Unix & Bash- Part 2_
 
 #### Bloco 2: Git & GitHub e Internet
@@ -67,23 +67,27 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [X] 1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 3: _Primeiros passos em Jest_
-- [ ] 4: _[Projeto - JavaScript Testes Unitários]()_
+ workOn
+- [X] 4: _[Projeto - JavaScript Testes Unitários]()_
+
+- [X] 4: _[Projeto - JavaScript Testes Unitários]()_
+ main
 
 #### Bloco 8: Higher Order Functions do JavaScript ES6
 
-- [ ] 1: _JavaScript ES6 -introdução a Higher Order Functions_
-- [ ] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 6: _[Projeto - Zoo functions]()_
+- [X] 1: _JavaScript ES6 -introdução a Higher Order Functions_
+- [X] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 6: _[Projeto - Zoo functions]()_
 
 #### Bloco 9: JavaScript e Testes Assíncronos
 
-- [ ] 1: _JavaScript Assíncrono e Callbacks_
-- [ ] 2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 3: _Jest - Testes Assíncronos_
-- [ ] 4: _[Projeto - Carrinho de Compras]()_
+- [X] 1: _JavaScript Assíncrono e Callbacks_
+- [X] 2: _JavaScript Assíncrono - Fetch API e async/await_
+- [X] 3: _Jest - Testes Assíncronos_
+- [X] 4: _[Projeto - Carrinho de Compras]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
