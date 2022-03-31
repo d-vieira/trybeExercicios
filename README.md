@@ -12,7 +12,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [X] 3: _Fundamentos do Desenvolvimento Web_
 - [X] 3: _Introdução - Unix & Shell_
-- [X] 3: _Unix & Bash- Part 1_
+- [X] 3: _Unix & Bash- Part 1_mainmain
 - [X] 4: _Unix & Bash- Part 2_
 
 #### Bloco 2: Git & GitHub e Internet
@@ -67,7 +67,11 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [X] 1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 3: _Primeiros passos em Jest_
+ workOn
 - [X] 4: _[Projeto - JavaScript Testes Unitários]()_
+
+- [X] 4: _[Projeto - JavaScript Testes Unitários]()_
+ main
 
 #### Bloco 8: Higher Order Functions do JavaScript ES6
 
